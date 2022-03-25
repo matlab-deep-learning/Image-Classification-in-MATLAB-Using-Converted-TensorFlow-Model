@@ -22,7 +22,7 @@ To obtain the TensorFlow model:
 # Overview
 
 
-This repository shows how to import a pretrained TensorFlow model in the SavedModel format, and use the imported network to classify an image. It is also referenced in the deep learing blog article [Importing Models from TensorFlow, PyTorch, and ONNX](https://blogs.mathworks.com/deep-learning/2022/03/18/importing-models-from-tensorflow-pytorch-and-onnx).
+This repository shows how to import a pretrained TensorFlow model in the SavedModel format, and use the imported network to classify an image. It is also referenced in the deep learning blog article [Importing Models from TensorFlow, PyTorch, and ONNX](https://blogs.mathworks.com/deep-learning/2022/03/18/importing-models-from-tensorflow-pytorch-and-onnx).
 
 
 
