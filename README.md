@@ -22,7 +22,7 @@ To obtain the TensorFlow model:
 # Overview
 
 
-This repository shows how to import a pretrained TensorFlow model in the SavedModel format, and use the imported network to classify an image.
+This repository shows how to import a pretrained TensorFlow model in the SavedModel format, and use the imported network to classify an image. It is also referenced in the deep learing blog article [Importing Models from TensorFlow, PyTorch, and ONNX](https://blogs.mathworks.com/deep-learning/2022/03/18/importing-models-from-tensorflow-pytorch-and-onnx).
 
 
 
@@ -33,6 +33,8 @@ Use the [`importTensorFlowNetwork`](https://www.mathworks.com/help/deeplearning/
 
 
 The TensorFlow model contains layers that are not supported for conversion into built-in MATLAB layers. The `importTensorFlowNetwork` function automatically generates custom layers when you import these layers.
+
+
 
 
 # Convert TensorFlow Model into MATLAB Network
